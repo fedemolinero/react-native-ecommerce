@@ -56,7 +56,9 @@ const ProductListingScreen = ({ navigation }: { navigation: any }) => {
           <ThemedText style={styles.titlePaddedcontent} type="itemTitle">
             {item.brand}
           </ThemedText>
-          <Image style={styles.image} source={{ uri: item.image }} />
+          <Image
+            resizeMode='contain'
+            style={styles.image} source={{ uri: item.image }} />
         </View>
 
         <View style={styles.productItem}>
@@ -131,7 +133,6 @@ const styles = StyleSheet.create({
   image: {
     width: 122,
     height: 122,
-    resizeMode: 'contain',
   },
   flatlistContent: {
     alignItems: 'center',

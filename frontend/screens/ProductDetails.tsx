@@ -88,8 +88,9 @@ const ProductDetailsScreen = ({ route, navigation }: any) => {
           <View>
             <View style={styles.imageContainer}>
               <Image
+                resizeMode='contain'
                 style={styles.image}
-                source={{ uri: `./assets${productDetails.image}` }}
+                source={{ uri: `./assets/${productDetails.image}` }}
               />
             </View>
 
@@ -218,8 +219,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: 200,
-    height: 200,
-    resizeMode: 'contain',
+    height: 200
   },
   colored: {
     color: '#FF9F24',

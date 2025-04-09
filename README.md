@@ -1,4 +1,4 @@
-# Beer Ecommerce App
+# Ecommerce App
 
 Welcome to the **Beer Ecommerce App**! Here, you'll find an exceptional selection of craft beers from around the world. This guide will help you set up both the backend and frontend for local development.
 
