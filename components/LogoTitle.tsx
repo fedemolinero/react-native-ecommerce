@@ -1,15 +1,29 @@
 import React from 'react';
-import { Image, View } from 'react-native';
+import { Image, View, StyleSheet } from 'react-native';
 
 const LogoTitle = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Image
-        style={{ width: 50, height: 50, borderRadius:30, marginRight:20 }}
+        style={styles.image}
         source={require('@/assets/profile-img.jpg')}
+        accessibilityLabel="Profile logo"
       />
     </View>
   );
 };
 
-export default LogoTitle;
+const styles = StyleSheet.create({
+  container: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  image: {
+    width: 50,
+    height: 50,
+    borderRadius: 30,
+    marginRight: 20,
+  },
+});
+
+export default React.memo(LogoTitle);

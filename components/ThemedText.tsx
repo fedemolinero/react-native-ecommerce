@@ -4,6 +4,7 @@ import { useThemeColor } from '@/hooks/useThemeColor';
 import * as SplashScreen from 'expo-splash-screen';
 import * as Font from 'expo-font';
 import { useEffect, useState } from 'react';
+import React from 'react';
 
 // The expo-splash-screen library provides SplashScreen component that you 
 // can use to prevent rendering the app until the font is loaded and ready.
