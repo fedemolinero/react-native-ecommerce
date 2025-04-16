@@ -62,7 +62,7 @@ The frontend is built using React Native and Expo for mobile/web development. He
 1. **Navigate to the frontend directory:**
 
     ```bash
-    cd frontend/store
+    cd frontend/
     ```
 
 2. **Install frontend dependencies:**
@@ -113,11 +113,11 @@ Check out these screenshots to see how the app looks in action!
 
 - **Beer Store List:**
 
-    ![Beer Store List](frontend/store/assets/BeerStore.jpg)
+    ![Beer Store List](frontend/assets/BeerStore.jpg)
 
 - **Beer Details:**
 
-    ![Beer Details](frontend/store/assets/BeerStoreDetails.jpg)
+    ![Beer Details](frontend/assets/BeerStoreDetails.jpg)
 
 ---
 
